@@ -12,7 +12,7 @@
 class Character < ApplicationRecord
 
   belongs_to(:movie)
- belongs_to(:actor)
+  belongs_to(:actor)
   # def movie
   #   key = self.movie_id 
 
